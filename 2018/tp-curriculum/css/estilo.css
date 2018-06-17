@@ -1,0 +1,151 @@
+/* style.css */
+body{
+  background: rgb(245,245,245);
+  color: green;
+  padding-top: 20px;
+  padding-bottom:10px;
+  color: #868e96;
+  font-family: Helvetica;
+}
+
+p {
+  font-size: 0.75rem;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Courier';
+  color: #343a40;
+}
+
+h2 {
+  font-family: Helvetica;
+  color: black;
+  font-size: 19px;
+}
+
+a {
+  color: yellow;
+}
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
+
+
+a {
+  color: #BD5D38;
+}
+
+a:hover, a:focus, a:active {
+  color: #824027;
+}
+
+#avatar {
+      max-width: 10rem;
+    max-height: 10rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+}
+
+#banner{
+  text-align: center;
+  background-image: url("https://picsum.photos/600/900?image=0"); 
+  background-size: cover;
+  padding: 100px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+#banner h1 {
+  color: white;
+  font-size: 50px;
+}
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+#footer{
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: lightgrey;
+}
+.tarjeta{
+  padding: 50px;
+  font-weight: lighter;
+}
+
+/* Importado */
+
+.bigpixi-footer-social {
+    margin-left: auto;
+    margin-top: 8px;
+}
+
+.bigpixi-footer-social__list-item {
+    display: inline-block;
+    margin-left: 16px;
+}
+.bigpixi-footer__icon-link {
+    display: inline-block;
+    -webkit-transition: 0.1s cubic-bezier(0.39, 0.575, 0.565, 1);
+    transition: 0.1s cubic-bezier(0.39, 0.575, 0.565, 1);
+    -webkit-transition-property: opacity, -webkit-transform;
+    transition-property: opacity, -webkit-transform;
+    transition-property: opacity, transform;
+    transition-property: opacity, transform, -webkit-transform;
+}
+.bigpixi-footer-social__icon {
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+}
+.bigpixi-footer-social__icon:hover {
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    border: 1px solid #e2e2e2;
+    padding: 2px;
+    transition : .2s;
+}
+
+section.resume-section {
+  border-bottom: 1px solid #dee2e6;
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+}
+
+section.resume-section .resume-item .resume-date {
+  min-width: none;
+}
+
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh;
+  }
+  section.resume-section .resume-item .resume-date {
+    min-width: 18rem;
+  }
+}
+
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+.text-primary {
+  color: #BD5D38 !important;
+}
+
+.empresas {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: Helvetica;
+  font-size: 1.35rem;
+}
